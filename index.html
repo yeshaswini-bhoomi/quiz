@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>..:THE KNOW YOU APP:..</title>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src ="jquery.js"></script>
+		<script src ="script.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			// default stylsheet
+			$("#theme1").click(function() {
+			$("link[rel=stylesheet]").attr({href : "theme1.css"});
+		});
+		});
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<div id = "blk"></div>
+			<img src="image.jpg">
+		</header>
+
+		<section><h1>LADY, WHAT'S YOUR STYLE ?</h1>
+			<h2>Please answer the question truthfully</h2>
+		</section>
+		<a href="test.html" class="submit">Take Style Test</a>
+
+		<footer>
+
+			<div id = "foot">
+				<ul>
+					<li><a href="#">@damilola</a></li>
+
+					<li><a href="#">@CallSurge</a></li>
+					<li><a href="#">@ThisIsAndela</a></li>
+					<li><a href="#" style="color:#d35400" id = "theme1">Change Theme</a></li>
+				</ul>	
+			</div>
+
+		</footer>
+	</body>
+</html>
